@@ -24,3 +24,8 @@ git push -u origin dev-for-week1
 
 5/ To check status of working folder
 git status
+
+6/ To merge a dev branch with the main in Local
+git checkout main
+git merge dev-for-week2
+git push -u origin main
