@@ -3,15 +3,20 @@ Scenarios
 1/ Clone the repository to start working
 git clone https://github.com/juanonsoftware/GitCommon.git
 
-2/ Create a branch and commit a file
+2/ Create a branch and commit a file then push the changes to remote server
 git branch -m main
 git add README.md
 git commit -m "Adding file README.md"
 git push -u origin main
 
-* Pull from an existing repository
-- Create a folder GitCommon
-- CD to that folder
-git init
-git remote add origin https://github.com/juanonsoftware/GitCommon.git
-git branch -m main
+3/ Create a new branch then push to remote server
+git branch -m dev-for-week1
+git push -u origin dev-for-week1
+
+4/ Create a new file on the new branch and push to the server
+git add CodeForWeek1.txt
+git commit -m "Adding file CodeForWeek1.txt"
+git push -u origin dev-for-week1
+
+git add README.md
+git commit -m "Update file README.md"
