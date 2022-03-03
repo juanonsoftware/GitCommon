@@ -21,3 +21,6 @@ git push -u origin dev-for-week1
 git add README.md
 git commit -m "Update file README.md"
 git push -u origin dev-for-week1
+
+5/ To check status of working folder
+git status
